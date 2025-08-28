@@ -1,0 +1,84 @@
+body{
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    margin: 0;
+    background-color: rgb(41, 51, 51);
+}    
+/* Middle Section - Main Content - Resume*/
+.Resume{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.Resume hr{
+    background-color: black;
+    height: 5px;
+}
+.WholePaper{
+    background-color: white;
+    width: 816px;
+    height:1248px; 
+    padding: 3em;
+    border: 1px solid black;
+    box-shadow: 0 1px 8px black;
+}
+
+/* Name,Adress, Number, Email, Objectives */
+.Contents{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.Contents >h2,h3{
+    margin:1px;
+}
+.Box_One{
+    display: flex;
+    flex-direction: row;
+}
+.Objectives h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Objectives p{
+
+    margin-bottom: 0;
+}
+.Picture > img{
+    object-fit: cover;
+    display: flex;
+    width: 200px;   
+    height: 200px;
+    border-radius: 100%;
+}
+/* Skills, Experience */
+.Box_two{
+    display: flex;
+    flex-direction: row;
+    gap:em;
+}
+.Experience  span{
+    font-style: italic;
+    color: rgb(88, 114, 114);
+}
+.Experience ul{
+    margin-top:2px;
+    margin-bottom:10px;
+}
+.Experience li{
+    margin-top:5px
+}
+
+.Skills li{
+    margin-bottom: 15px;
+}
+/* Education */
+.Education h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Education ul{
+    margin-top: 5px;
+}
